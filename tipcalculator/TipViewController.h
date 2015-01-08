@@ -1,17 +1,13 @@
 //
-//  ViewController.m
+//  TipViewController.h
 //  tipcalculator
 //
 //  Created by Helen Kuo on 12/30/14.
 //  Copyright (c) 2014 Helen Kuo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
+@interface TipViewController : UIViewController
 
 @end
