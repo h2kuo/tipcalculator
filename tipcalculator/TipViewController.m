@@ -56,7 +56,7 @@ const float tipValues[] = {0.1, 0.15, 0.2};
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSDate *lastTime = [defaults objectForKey:@"last_time_used"];
     NSDate *currentTime = [NSDate date];
-    if (lastTime == NULL || [[lastTime dateByAddingTimeInterval:30] compare:currentTime] == NSOrderedAscending) {
+    if (lastTime == NULL || [[lastTime dateByAddingTimeInterval:600] compare:currentTime] == NSOrderedAscending) {
         self.billTextField.text = @"";
         [self.billTextField becomeFirstResponder];
         
